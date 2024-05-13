@@ -1,0 +1,21 @@
+{
+  "name": "webgpu-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "copy": "copyfiles -u 1 src/**/*.html src/**/*.css dist",
+    "build": "tsc && npm run copy"
+  }, 
+  "dependencies": {
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5",
+    "webgpu": "^0.1.16"
+  },
+  "devDependencies": {
+    "@webgpu/types": "^0.1.40",
+    "copyfiles": "^2.4.1"
+  }
+}

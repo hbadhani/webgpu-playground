@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "ES2020",
+      "strict": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "importHelpers": true,
+      "allowSyntheticDefaultImports": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "moduleResolution": "node",
+      "experimentalDecorators": true,
+      "declaration": true, // Generates .d.ts files from your TypeScript files. Unless you're writing a library that others will consume, you may not need to generate .d.ts files.
+      "declarationMap": true,
+      "incremental": true,
+      "useUnknownInCatchVariables": false,
+      "sourceMap": true,
+      "inlineSources": true,
+      "lib": ["es2020", "dom", "dom.iterable"],
+      "outDir": "./dist",
+      "types": ["@webgpu/types"]
+    },
+    "include": [
+      "./src/**/*.ts"
+    ],
+    "exclude": [
+      "./dist"
+    ],
+  }
+  
